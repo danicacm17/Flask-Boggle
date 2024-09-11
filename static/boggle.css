@@ -1,0 +1,86 @@
+/* General styles for the board */
+.board {
+  border: solid 1px black;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 200%;
+  margin-bottom: 1em;
+}
+
+.board td {
+  text-align: center;
+  width: 1.5em;
+  height: 1.5em;
+  border: solid 1px gray; /* Adds borders to cells for better visibility */
+}
+
+/* Styles for messages */
+.msg {
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+.msg.ok {
+  color: white;
+  background-color: green;
+}
+
+.msg.err {
+  color: white;
+  background-color: tomato;
+}
+
+/* New Game Button Styles */
+#new-game-btn {
+  padding: 0.5em 1em;
+  font-size: 1em;
+  font-weight: bold;
+  color: white;
+  background-color: #007bff; /* Bootstrap primary color */
+  border: none;
+  border-radius: 0.25em;
+  cursor: pointer;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+#new-game-btn:hover {
+  background-color: #0056b3; /* Darker shade for hover effect */
+}
+
+/* Styles for the score and timer display */
+p {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 0.5em 0;
+}
+
+.score, .timer {
+  color: #333;
+}
+
+/* Styles for the word list and form */
+.words {
+  margin-top: 1em;
+  list-style-type: none;
+  padding: 0;
+}
+
+.words li {
+  margin: 0.5em 0;
+}
+
+.add-word {
+  margin-top: 1em;
+}
+
+.word {
+  padding: 0.5em;
+  font-size: 1em;
+}
+
+button {
+  padding: 0.5em 1em;
+  font-size: 1em;
+  cursor: pointer;
+}
